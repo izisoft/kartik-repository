@@ -1,0 +1,71 @@
+{
+	"name" : "izisoft/kartik-repository",
+	"description" : "Import kartik repository By Izisoft",
+	"keywords" : [
+		"yii2",
+		"framework",
+		"advanced",
+		"project template",
+		"izisoft"
+	],
+	"homepage" : "https://iziweb.vn",
+	"type" : "project",
+	"license" : "BSD-3-Clause",
+	"support" : {
+		"issues" : "https://github.com/yiisoft/yii2/issues?state=open",
+		"forum" : "http://www.yiiframework.com/forum/",
+		"wiki" : "http://www.yiiframework.com/wiki/",
+		"irc" : "irc://irc.freenode.net/yii",
+		"source" : "https://github.com/izisoft/yii2",
+		"email" : "izisoft@iziweb.vn"
+	},
+	"minimum-stability" : "dev",
+	"require" : {			
+		"kartik-v/yii2-dynagrid" : "@dev",
+		"kartik-v/yii2-export" : "*",
+		"kartik-v/yii2-money" : "*",
+		"kartik-v/yii2-number" : "*",
+		"kartik-v/yii2-tree-manager" : "@dev",
+		"kartik-v/yii2-context-menu" : "*",
+		"kartik-v/yii2-builder" : "*",
+		"kartik-v/yii2-label-inplace" : "*",
+		"kartik-v/yii2-field-range" : "*",
+		"kartik-v/yii2-sortable" : "*",
+		"kartik-v/yii2-sortable-input" : "*",
+		"kartik-v/yii2-ipinfo": "@dev",
+		"kartik-v/yii2-slider": "*"
+	},
+	"config" : {
+		"process-timeout" : 1800,
+		"fxp-asset" : {
+			"enabled" : false
+		}
+	},
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}
+	],
+	"authors" : [{
+			"name" : "A Tỉn",
+			"email" : "atin@iziweb.vn",
+			"homepage" : "https://iziweb.vn",
+			"role" : "Master developer"
+		}, {
+			"name" : "A Xỉn",
+			"email" : "axin@iziweb.vn",
+			"homepage" : "https://thaochip.com",
+			"role" : "Frontend developer"
+		}, {
+			"name" : "A Tủn",
+			"email" : "atun@iziweb.vn",
+			"homepage" : "https://emz.vn",
+			"role" : "Backend developer"
+		}, {
+			"name" : "A Páo",
+			"email" : "apao@iziweb.vn",
+			"homepage" : "https://helloweb.vn",
+			"role" : "Database developer"
+		}
+	]
+}
